@@ -1,0 +1,125 @@
+# Редакторы
+.vscode /
+.idea /
+
+# Бродяга
+.vagrant /
+
+# Mac / OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Источник для следующих правил: https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
+# Байт-скомпилированные / оптимизированные / DLL файлы
+__pycache__ /
+* .py [ cod ]
+* $ py.class
+
+# C расширения
+* .so
+
+# Распространение / упаковка
+.Python
+построить /
+развивающиеся яйца /
+dist /
+загрузки /
+яйца /
+.eggs /
+lib /
+lib64 /
+части /
+sdist /
+вар /
+колеса /
+* .egg-info /
+.installed.cfg
+* .egg
+МАНИФЕСТ
+
+# PyInstaller
+#   Обычно эти файлы пишутся скриптом Python из шаблона
+#   до того, как PyInstaller создаст исполняемый файл, чтобы добавить в него информацию о дате / другой информации.
+* .manifest
+* .spec
+
+# Установщик логов
+пип-log.txt
+пип-удаления-это-directory.txt
+
+# Юнит-тесты / отчеты о покрытии
+htmlcov /
+.tox /
+.nox /
+.coverage
+.coverage. *
+.cache
+nosetests.xml
+coverage.xml
+* .cover
+Гипотеза /
+.pytest_cache /
+
+# Переводы
+* .mo
+* .pot
+
+# Джанго вещи:
+* .log
+local_settings.py
+db.sqlite3
+
+# Фляги:
+экземпляр /
+.webassets-кэш
+
+# Scrapy вещи:
+.scrapy
+
+# Сфинкс документация
+документы / _build /
+
+# PyBuilder
+цель /
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default /
+ipython_config.py
+
+# pyenv
+.python-версия
+
+# файл расписания ритма сельдерея
+celerybeat-график
+
+# SageMath проанализировал файлы
+* .sage.py
+
+# Среды
+.env
+.venv
+env /
+Venv /
+ENV /
+env.bak /
+venv.bak /
+
+# Настройки проекта Spyder
+.spyderproject
+.spyproject
+
+# Настройки проекта веревки
+.ropeproject
+
+# документация mkdocs
+/ сайт
+
+# mypy
+.mypy_cache /
+.dmypy.json
+dmypy.json
